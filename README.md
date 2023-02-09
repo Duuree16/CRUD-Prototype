@@ -1,0 +1,1 @@
+Quacker, Inc. is an Mongolian social media company based in Ulan Bator, Pinecone academy. The company operates the social networking service Quacker. It previously operated the Vine short video app and Periscope livestreaming service.
