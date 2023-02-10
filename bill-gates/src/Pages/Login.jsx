@@ -1,8 +1,10 @@
+import { Container } from "react-bootstrap";
+
 export const Login = () => {
   return (
-    <div>
+    <Container>
       <h1>Login</h1>
-    </div>
+    </Container>
   );
 };
 
