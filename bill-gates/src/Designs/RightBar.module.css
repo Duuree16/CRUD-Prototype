@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 265px;
+  height: 100vh;
+  padding: 10px;
+  border: red solid 1px;
+  padding-right: 10px;
+  gap: 20px;
+  overflow: hidden;
+}
+.searchInput{
+    border: 1px solid gray;
+}

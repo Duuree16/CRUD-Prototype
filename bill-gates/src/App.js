@@ -2,6 +2,7 @@ import "./App.css";
 import { Sidebar } from "./Components/Sidebar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./Pages";
+import { RightBar } from "./Components/RightBar";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             <Route />
           </Routes>
         </Home>
+        <RightBar />
       </BrowserRouter>
     </div>
   );
