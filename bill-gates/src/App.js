@@ -1,18 +1,18 @@
 import "./App.css";
 import { Sidebar } from "./Components/Sidebar";
-import { Container } from "react-bootstrap";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Home } from "./Pages";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <BrowserRouter>
-        <Container>
-          <Sidebar />
-        </Container>
-        <Routes>
-          <Route />
-        </Routes>
+        <Sidebar />
+        <Home>
+          <Routes>
+            <Route />
+          </Routes>
+        </Home>
       </BrowserRouter>
     </div>
   );
